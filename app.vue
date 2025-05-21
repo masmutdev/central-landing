@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-[#011a2b] lg:p-4">
     <div
-      class="h-screen overflow-hidden relative flex flex-col items-center justify-start text-center rounded-lg backdrop-container"
+      class="h-screen overflow-hidden relative flex flex-col items-center justify-start lg:justify-center text-center rounded-lg backdrop-container"
       style="
         background: linear-gradient(
             rgba(255, 220, 12, 0.3),
@@ -34,6 +34,27 @@
         Sudah Terverifikasi dan Terdaftar di Dinas Pendidikan<br />
         NO. SK Diknas 421.9/ 2938 /418.20/2021
       </p>
+
+      <!-- Tombol Daftar -->
+      <div
+        class="relative z-10 mt-6 flex flex-wrap justify-center gap-4 px-4 lg:mb-[10%]"
+      >
+        <button
+          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm"
+        >
+          Daftar Kursus Offline
+        </button>
+        <button
+          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm"
+        >
+          Daftar Kursus Online
+        </button>
+        <button
+          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm"
+        >
+          Daftar Tes TOEFL Online
+        </button>
+      </div>
 
       <!--Waves Container-->
       <div class="absolute bottom-0 rounded-lg w-full z-10">
@@ -90,10 +111,15 @@
     <transition name="fade-slide">
       <div
         v-if="showNotif"
-        class="fixed bottom-6 left-6 z-50 bg-white text-sm shadow-lg p-4 rounded-md w-[280px] border border-yellow-400"
+        class="fixed bottom-6 left-6 z-50 bg-white text-sm shadow-xl p-4 rounded-lg w-[300px] border border-yellow-400 flex gap-3 items-start"
       >
-        <p class="text-gray-800 font-medium leading-snug">{{ notifText }}</p>
-        <p class="text-xs text-gray-500 mt-2">{{ notifTime }}</p>
+        <div class="text-green-500 mt-1">
+          <IconCheck class="w-6 h-6" />
+        </div>
+        <div>
+          <p class="text-gray-800 font-medium leading-snug">{{ notifText }}</p>
+          <p class="text-xs text-gray-500 mt-2">{{ notifTime }}</p>
+        </div>
       </div>
     </transition>
   </div>
@@ -101,6 +127,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
+import { IconCheck } from "@tabler/icons-vue";
 
 const showNotif = ref(false);
 const notifText = ref("");
