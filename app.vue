@@ -4,8 +4,8 @@
       class="h-screen overflow-hidden relative flex flex-col items-center justify-start lg:justify-center text-center rounded-lg backdrop-container"
       style="
         background: linear-gradient(
-            rgba(255, 220, 12, 0.3),
-            rgba(255, 220, 12, 1)
+            rgba(255, 220, 12, 0.9),
+            rgba(255, 220, 12, 0.4)
           ),
           url('/bg-card.webp');
         background-size: cover;
@@ -36,24 +36,25 @@
       </p>
 
       <!-- Tombol Daftar -->
-      <div
-        class="relative z-10 mt-6 flex flex-wrap justify-center gap-4 px-4 lg:mb-[10%]"
-      >
-        <button
-          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm"
+      <div class="relative z-10 mt-6 flex flex-wrap justify-center gap-4 px-4">
+        <NuxtLink
+          to="/daftar-kursus-offline"
+          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm text-center"
         >
           Daftar Kursus Offline
-        </button>
-        <button
-          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm"
+        </NuxtLink>
+        <NuxtLink
+          to="/daftar-kursus-online"
+          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm text-center"
         >
           Daftar Kursus Online
-        </button>
-        <button
-          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm"
+        </NuxtLink>
+        <NuxtLink
+          to="/tes-toefl"
+          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm text-center"
         >
           Daftar Tes TOEFL Online
-        </button>
+        </NuxtLink>
       </div>
 
       <!--Waves Container-->
@@ -100,12 +101,12 @@
     <a
       href="https://wa.me/6289510056758"
       target="_blank"
-      class="fixed bottom-6 right-3 z-50"
+      class="fixed bottom-6 right-3 lg:right-[30px] z-50"
     >
       <img
         src="/whatsapp.png"
         alt="Chat WhatsApp"
-        class="w-14 h-14 drop-shadow-lg hover:scale-110 transition-transform"
+        class="w-14 h-14 lg:w-[100px] lg:h-[100px] drop-shadow-lg hover:scale-110 transition-transform animate-float"
       />
     </a>
     <transition name="fade-slide">
@@ -461,5 +462,19 @@ onMounted(() => {
   .content {
     height: 50vh;
   }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 2.5s ease-in-out infinite;
 }
 </style>
