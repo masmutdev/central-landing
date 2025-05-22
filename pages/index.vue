@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-[#011a2b] lg:p-4">
     <div
-      class="h-screen overflow-hidden relative flex flex-col items-center justify-start lg:justify-center text-center rounded-lg backdrop-container"
+      class="h-screen overflow-hidden relative flex flex-col items-center justify-start lg:justify-start text-center rounded-lg backdrop-container"
       style="
         background: linear-gradient(
             rgba(255, 220, 12, 0.9),
@@ -13,7 +13,7 @@
       "
     >
       <div
-        class="relative z-10 mt-[50px] flex flex-col items-center justify-center px-4"
+        class="relative z-10 lg:mt-[50px] flex flex-col items-center justify-center px-4"
       >
         <img
           src="/logo.png"
