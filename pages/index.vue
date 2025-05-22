@@ -44,7 +44,7 @@
       <!-- Tombol Daftar -->
       <div class="relative z-10 mt-6 flex flex-wrap justify-center gap-4 px-4">
         <NuxtLink
-          to="/daftar-kursus-offline"
+          to="/daftar"
           class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center"
         >
           Daftar Kursus Offline
@@ -55,12 +55,14 @@
         >
           Daftar Kursus Online
         </NuxtLink>
-        <NuxtLink
-          to="/tes-toefl"
-          class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center"
+        <a
+          href="https://centralcourseofficial.com/central-toefl-page/"
+          target="_blank"
+          rel="noopener"
+          class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center inline-flex justify-center items-center"
         >
           Daftar Tes TOEFL Online
-        </NuxtLink>
+        </a>
       </div>
 
       <!--Waves Container-->
