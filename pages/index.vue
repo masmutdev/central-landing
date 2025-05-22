@@ -13,45 +13,53 @@
       "
     >
       <div
-        class="relative z-10 lg:mt-[50px] flex flex-col items-center justify-center px-4"
+        class="relative z-10 mt-[10px] lg:mt-[50px] flex flex-col items-center justify-center px-4"
       >
         <img
           src="/logo.png"
           alt="Central Course Logo"
           class="w-[100px] h-[100px] mb-6"
         />
-        <h1 class="text-4xl font-extrabold text-gray-900 mb-2">
+        <h1
+          class="h-[2.5rem] lg:h-[60px] typewriter text-4xl lg:text-[60px] font-extrabold text-gray-900"
+        >
           CENTRAL COURSE
         </h1>
       </div>
 
-      <p class="relative z-10 text-lg font-medium text-gray-900 px-4">
-        Situs Resmi Informasi dan Pendaftaran<br />
-        Central Course Kampung Inggris
+      <p
+        class="relative flex flex-col z-10 text-lg lg:text-[40px] lg:mt-5 font-medium text-gray-900 px-4 leading-snug mb-4"
+      >
+        <span>Situs Resmi Informasi dan pendaftaran</span>
+        <span>Central Course Kampung Inggris</span>
       </p>
 
-      <p class="relative z-10 mt-4 text-sm font-medium text-gray-900 max-w-md">
-        Sudah Terverifikasi dan Terdaftar di Dinas Pendidikan<br />
-        NO. SK Diknas 421.9/ 2938 /418.20/2021
+      <p class="relative flex flex-col z-10 text-gray-900 mt-[20px]">
+        <span class="font-poppins text-lg lg:text-[30px] font-medium"
+          >Sudah Terverifikasi dan Terdaftar di Dinas Pendidikan</span
+        >
+        <span class="font-bebas mt-[10px] text-lg lg:text-[30px]"
+          >NO. SK Diknas 421.9/ 2938 /418.20/2021</span
+        >
       </p>
 
       <!-- Tombol Daftar -->
       <div class="relative z-10 mt-6 flex flex-wrap justify-center gap-4 px-4">
         <NuxtLink
           to="/daftar-kursus-offline"
-          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm text-center"
+          class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center"
         >
           Daftar Kursus Offline
         </NuxtLink>
         <NuxtLink
           to="/daftar-kursus-online"
-          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm text-center"
+          class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center"
         >
           Daftar Kursus Online
         </NuxtLink>
         <NuxtLink
           to="/tes-toefl"
-          class="w-[200px] bg-white text-black font-semibold px-4 py-2 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm text-center"
+          class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center"
         >
           Daftar Tes TOEFL Online
         </NuxtLink>
@@ -476,5 +484,35 @@ onMounted(() => {
 
 .animate-float {
   animation: float 2.5s ease-in-out infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  5% {
+    width: 100%;
+  }
+  95% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #000;
+  width: 0;
+  animation: typing 30s steps(15, end) infinite, blink 1s step-end infinite;
 }
 </style>
