@@ -20,9 +20,7 @@
           alt="Central Course Logo"
           class="w-[100px] h-[100px] mb-6"
         />
-        <h1
-          class="h-[2.5rem] lg:h-[60px] typewriter text-4xl lg:text-[60px] font-extrabold text-gray-900"
-        >
+        <h1 class="text-4xl lg:text-[60px] font-extrabold text-gray-900">
           CENTRAL COURSE
         </h1>
       </div>
