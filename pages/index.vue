@@ -37,7 +37,7 @@
           >Sudah Terverifikasi dan Terdaftar di Dinas Pendidikan</span
         >
         <span class="font-bebas mt-[10px] text-lg lg:text-[30px]"
-          >NO. SK Diknas 421.9/ 2938 /418.20/2021</span
+          >NO. SK Diknas 421.9/7845/418.20/2024</span
         >
       </p>
 
