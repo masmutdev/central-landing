@@ -18,6 +18,14 @@
         alt="Model Central Course"
         class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
       />
+      <a
+        href="https://whatsform.com/oeH-r5"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block mt-4 bg-yellow-700 shadow-lg text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 animate-[rubberBand_1s] hover:animate-none"
+      >
+        Daftar Sekarang
+      </a>
     </div>
 
     <!-- Alasan Section -->
@@ -301,7 +309,7 @@
 
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
         <div
-          v-for="(item, index) in peserta"
+          v-for="(item, index) in peserta1"
           :key="item.role"
           class="relative bg-yellow-400/30 rounded-lg shadow p-6 text-center overflow-hidden"
         >
@@ -321,12 +329,56 @@
           </p>
         </div>
       </div>
+      <div
+        class="grid md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-6xl mx-auto mt-[1.5rem]"
+      >
+        <div
+          v-for="(item, index) in peserta2"
+          :key="item.role"
+          class="relative bg-yellow-400/30 rounded-lg shadow p-6 text-center overflow-hidden"
+        >
+          <!-- Ikon Background di pojok kanan atas, pakai gambar 1.png sampai 5.png -->
+          <img
+            :src="`/${index + 4}.png`"
+            alt="icon"
+            class="absolute top-2 right-2 w-10 h-10 opacity-60 pointer-events-none"
+          />
+
+          <!-- Teks Konten -->
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 relative z-10">
+            {{ item.role }}
+          </h3>
+          <p class="text-gray-700 text-base relative z-10">
+            {{ item.deskripsi }}
+          </p>
+        </div>
+      </div>
     </section>
     <div>
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">
         Asrama dan Suasana Kelas
       </h2>
       <SliderAsramaKelas />
+    </div>
+    <div class="flex flex-col justify-center items-center my-12">
+      <img src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
+    </div>
+    <a
+      href="https://whatsform.com/oeH-r5"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-block mt-4 bg-yellow-700 text-2xl shadow-lg text-white font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 animate-[rubberBand_1s] hover:animate-none"
+    >
+      Daftar Sekarang
+    </a>
+    <div
+      class="w-full rounded-lg flex flex-col justify-center items-center my-12"
+    >
+      <img
+        src="/kalender-akademik-central.jpg"
+        class="rounded-lg shadow-black shadow-lg"
+        alt=""
+      />
     </div>
   </section>
 </template>
@@ -371,7 +423,7 @@ const paket = [
     hargaDiskon: "3.000.000",
   },
 ];
-const peserta = [
+const peserta1 = [
   {
     role: "Pelajar",
     icon: "🎓",
@@ -389,6 +441,9 @@ const peserta = [
     icon: "👩‍🏫",
     deskripsi: "Yang ingin tahu metode rahasia mengajar anak secara efisien",
   },
+];
+
+const peserta2 = [
   {
     role: "Umum",
     icon: "💼",
