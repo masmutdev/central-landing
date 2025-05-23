@@ -18,14 +18,18 @@
         alt="Model Central Course"
         class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
       />
-      <a
-        href="https://whatsform.com/oeH-r5"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-block mt-4 bg-yellow-700 shadow-lg text-white font-semibold py-3 px-6 rounded-lg hover:bg-yellow-500 transition duration-300 animate-[rubberBand_1s] hover:animate-none"
+      <div
+        class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow mt-4"
       >
-        Daftar Sekarang
-      </a>
+        <a
+          href="https://whatsform.com/oeH-r5"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block bg-yellow-700/30 text-2xl shadow-lg text-yellow-900 font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
+        >
+          Daftar Sekarang
+        </a>
+      </div>
     </div>
 
     <!-- Alasan Section -->
@@ -363,14 +367,19 @@
     <div class="flex flex-col justify-center items-center my-12">
       <img src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
     </div>
-    <a
-      href="https://whatsform.com/oeH-r5"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="inline-block mt-4 bg-yellow-700 text-2xl shadow-lg text-white font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 animate-[rubberBand_1s] hover:animate-none"
+    <div
+      class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow"
     >
-      Daftar Sekarang
-    </a>
+      <a
+        href="https://whatsform.com/oeH-r5"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="block bg-yellow-700/30 text-2xl shadow-lg text-yellow-900 font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
+      >
+        Daftar Sekarang
+      </a>
+    </div>
+
     <div
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
@@ -457,3 +466,21 @@ const peserta2 = [
   },
 ];
 </script>
+
+<style scoped>
+@keyframes borderMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-borderMove {
+  animation: borderMove 3s linear infinite;
+}
+</style>

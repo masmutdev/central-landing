@@ -18,9 +18,14 @@ const config: Config = {
           "75%": { transform: "scale3d(1.05, 0.95, 1)" },
           "100%": { transform: "scale3d(1, 1, 1)" },
         },
+        pulseSlow: {
+          "0%, 100%": { transform: "scale(1)", opacity: "1" },
+          "50%": { transform: "scale(1.05)", opacity: "0.9" },
+        },
       },
       animation: {
         rubberBand: "rubberBand 1s",
+        pulseSlow: "pulseSlow 3s ease-in-out infinite",
       },
     },
   },
