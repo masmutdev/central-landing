@@ -25,7 +25,7 @@
           href="https://whatsform.com/oeH-r5"
           target="_blank"
           rel="noopener noreferrer"
-          class="block bg-yellow-700/30 text-2xl shadow-lg text-yellow-900 font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
+          class="block bg-yellow-700/30 text-lg lg:text-4xl shadow-lg text-black font-semibold py-3 px-6 lg:py-6 lg:px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
         >
           Daftar Sekarang
         </a>
@@ -374,7 +374,7 @@
         href="https://whatsform.com/oeH-r5"
         target="_blank"
         rel="noopener noreferrer"
-        class="block bg-yellow-700/30 text-2xl shadow-lg text-yellow-900 font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
+        class="block bg-yellow-700/30 text-2xl shadow-lg text-black font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
       >
         Daftar Sekarang
       </a>
