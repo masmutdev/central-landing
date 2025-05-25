@@ -18,8 +18,13 @@
         <NuxtImg
           src="/img/central-course-model.avif"
           alt="Model Central Course"
-          width="600"
+          width="400"
+          height="400"
+          sizes="400px"
+          preload
           priority
+          format="auto"
+          layout="constrained"
           class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
         />
         <div class="flex flex-col justify-center items-center">

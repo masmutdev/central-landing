@@ -18,7 +18,7 @@
         alt="Model Central Course"
         width="400"
         height="400"
-        sizes="(min-width: 1024px) 400px, 10vw"
+        sizes="400px"
         preload
         priority
         format="auto"
@@ -286,7 +286,7 @@
           alt="Model Central Course"
           width="400"
           height="400"
-          sizes="(min-width: 1024px) 400px, 10vw"
+          sizes="400px"
           preload
           priority
           format="auto"
@@ -528,7 +528,7 @@
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
       <NuxtImg
-        src="/img/kalender-akademik-central.jpg"
+        src="/img/kalender-akademik-central.avif"
         class="rounded-lg shadow-black shadow-lg"
         alt=""
       />
