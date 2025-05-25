@@ -13,9 +13,12 @@
           Course!
         </p>
       </div>
-      <img
+      <NuxtImg
         src="/central-course-model.png"
         alt="Model Central Course"
+        width="600"
+        height="auto"
+        priority
         class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
       />
       <div
@@ -39,23 +42,38 @@
 
     <div class="grid md:grid-cols-2 gap-6 max-w-6xl mx-auto px-4">
       <div
-        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 flex flex-col lg:flex-row items-center space-x-4"
+        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 min-h-[150px] flex items-start gap-4"
       >
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
-          class="absolute top-2 left-[-8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full">
+          <span class="sr-only">status indicator</span>
+        </div>
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 right-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div
           class="absolute top-2 right-[8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
-        <img src="/ratings.png" alt="icon" class="w-20 h-20 lg:w-16 lg:h-16" />
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <!-- Icon -->
+        <div class="w-16 aspect-[1/1] shrink-0">
+          <NuxtImg
+            src="/ratings.png"
+            alt="icon"
+            width="64"
+            height="64"
+            class="w-full h-full object-contain"
+          />
+        </div>
         <p class="text-gray-700 text-lg text-start">
           Central Course memiliki metode pembelajaran berkualitas yang dikemas
           secara
@@ -64,23 +82,38 @@
       </div>
 
       <div
-        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 flex flex-col lg:flex-row items-center space-x-4"
+        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 min-h-[150px] flex items-start gap-4"
       >
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
-          class="absolute top-2 left-[-8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full">
+          <span class="sr-only">status indicator</span>
+        </div>
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 right-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div
           class="absolute top-2 right-[8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
-        <img src="/library.png" alt="icon" class="w-20 h-20 lg:w-16 lg:h-16" />
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <!-- Icon -->
+        <div class="w-16 aspect-[1/1] shrink-0">
+          <NuxtImg
+            src="/library.png"
+            alt="icon"
+            width="64"
+            height="64"
+            class="w-full h-full object-contain"
+          />
+        </div>
         <p class="text-gray-700 text-lg text-start">
           Support <strong>English Area</strong> yang memudahkan teman-teman
           dalam pembiasaan berkomunikasi bahasa Inggris secara aktif.
@@ -88,23 +121,38 @@
       </div>
 
       <div
-        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 flex flex-col lg:flex-row items-center space-x-4"
+        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 min-h-[150px] flex items-start gap-4"
       >
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
-          class="absolute top-2 left-[-8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full">
+          <span class="sr-only">status indicator</span>
+        </div>
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 right-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div
           class="absolute top-2 right-[8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
-        <img src="/teacher.png" alt="icon" class="w-20 h-20 lg:w-16 lg:h-16" />
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <!-- Icon -->
+        <div class="w-16 aspect-[1/1] shrink-0">
+          <NuxtImg
+            src="/teacher.png"
+            alt="icon"
+            width="64"
+            height="64"
+            class="w-full h-full object-contain"
+          />
+        </div>
         <p class="text-gray-700 text-lg text-start">
           <strong>Pengajar ahli dan berkompeten</strong> dengan pengalaman
           mengajar bertahun-tahun di Kampung Inggris.
@@ -112,23 +160,38 @@
       </div>
 
       <div
-        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 flex flex-col lg:flex-row items-center space-x-4"
+        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 min-h-[150px] flex items-start gap-4"
       >
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
-          class="absolute top-2 left-[-8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full">
+          <span class="sr-only">status indicator</span>
+        </div>
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 right-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div
           class="absolute top-2 right-[8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
-        <img src="/bracelet.png" alt="icon" class="w-20 h-20 lg:w-16 lg:h-16" />
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <!-- Icon -->
+        <div class="w-16 aspect-[1/1] shrink-0">
+          <NuxtImg
+            src="/bracelet.png"
+            alt="icon"
+            width="64"
+            height="64"
+            class="w-full h-full object-contain"
+          />
+        </div>
         <p class="text-gray-700 text-lg text-start">
           Di sini kamu akan menemukan <strong>keluarga baru</strong> dari
           berbagai kota yang siap memberi sejuta kenangan indah.
@@ -136,27 +199,38 @@
       </div>
 
       <div
-        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 flex flex-col lg:flex-row items-center space-x-4"
+        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 min-h-[150px] flex items-start gap-4"
       >
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
-          class="absolute top-2 left-[-8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full">
+          <span class="sr-only">status indicator</span>
+        </div>
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 right-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div
           class="absolute top-2 right-[8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
-        <img
-          src="/expertise.png"
-          alt="icon"
-          class="w-20 h-20 lg:w-16 lg:h-16"
-        />
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <!-- Icon -->
+        <div class="w-16 aspect-[1/1] shrink-0">
+          <NuxtImg
+            src="/expertise.png"
+            alt="icon"
+            width="64"
+            height="64"
+            class="w-full h-full object-contain"
+          />
+        </div>
         <p class="text-gray-700 text-lg text-start">
           <strong>More Than Just Learning English</strong> — pengalaman belajar
           yang bermakna dan menyenangkan.
@@ -164,20 +238,33 @@
       </div>
 
       <div
-        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 flex flex-col lg:flex-row items-center space-x-4"
+        class="relative bg-yellow-400/30 rounded-lg shadow-md p-6 min-h-[150px] flex items-start gap-4"
       >
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <span
-          class="absolute top-2 left-[-8px] w-3 h-3 bg-yellow-400 rounded-full"
-        ></span>
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <div class="absolute top-2 left-2 w-3 h-3 bg-yellow-400 rounded-full">
+          <span class="sr-only">status indicator</span>
+        </div>
         <!-- Pulse -->
-        <span
+        <div
           class="absolute top-2 right-2 w-3 h-3 bg-yellow-400 rounded-full animate-ping"
-        ></span>
-        <img src="/school.png" alt="icon" class="w-20 h-20 lg:w-16 lg:h-16" />
+        >
+          <span class="sr-only">status indicator</span>
+        </div>
+        <!-- Icon -->
+        <div class="w-16 aspect-[1/1] shrink-0">
+          <NuxtImg
+            src="/school.png"
+            alt="icon"
+            width="64"
+            height="64"
+            class="w-full h-full object-contain"
+          />
+        </div>
         <p class="text-gray-700 text-lg text-start">
           Selain camp yang nyaman, ada
           <strong>Tutor Pendamping Asrama</strong> yang ramah dan siap jadi
@@ -190,7 +277,7 @@
     >
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
-        <img
+        <NuxtImg
           src="/central-course-model.png"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
@@ -207,58 +294,58 @@
 
         <ul class="space-y-4">
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start">
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
               Program 5x Pertemuan/ hari
-            </span>
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start"
-              >Asrama</span
-            >
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
+              Asrama
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start"
-              >Sertifikat</span
-            >
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
+              Sertifikat
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start"
-              >English Zone</span
-            >
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
+              English Zone
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start"
-              >Modul atau Buku Panduan</span
-            >
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
+              Modul atau Buku Panduan
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start">
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
               Dibimbing Tutor yang Profesional
-            </span>
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start"
-              >T-Shirt</span
-            >
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
+              T-Shirt
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start"
-              >Tote Bag</span
-            >
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
+              Tote Bag
+            </div>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
-            <span class="text-gray-700 text-lg font-medium text-start">
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <div class="text-gray-700 text-lg font-medium text-start">
               Gratis penjemputan di Bandara Surabaya dan Stasiun Kediri
-            </span>
+            </div>
           </li>
         </ul>
       </div>
@@ -276,14 +363,14 @@
           class="relative flex items-center bg-yellow-400 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-[1.02] transition-all duration-300 p-4 cursor-pointer"
         >
           <!-- Gambar Sale di pojok kanan atas -->
-          <img
+          <NuxtImg
             src="/sale.png"
             alt="Sale"
             class="absolute top-[-1px] right-2 w-10 h-10"
           />
 
           <!-- Gambar Sale di pojok kanan atas -->
-          <img
+          <NuxtImg
             src="/certification.png"
             alt="Top"
             class="absolute top-5 left-2 w-[4rem] h-[4rem]"
@@ -318,9 +405,12 @@
           class="relative bg-yellow-400/30 rounded-lg shadow p-6 text-center overflow-hidden"
         >
           <!-- Ikon Background di pojok kanan atas, pakai gambar 1.png sampai 5.png -->
-          <img
+          <NuxtImg
             :src="`/${index + 1}.png`"
             alt="icon"
+            width="40"
+            height="40"
+            format="webp"
             class="absolute top-2 right-2 w-10 h-10 opacity-60 pointer-events-none"
           />
 
@@ -342,9 +432,12 @@
           class="relative bg-yellow-400/30 rounded-lg shadow p-6 text-center overflow-hidden"
         >
           <!-- Ikon Background di pojok kanan atas, pakai gambar 1.png sampai 5.png -->
-          <img
+          <NuxtImg
             :src="`/${index + 4}.png`"
             alt="icon"
+            width="40"
+            height="40"
+            format="webp"
             class="absolute top-2 right-2 w-10 h-10 opacity-60 pointer-events-none"
           />
 
@@ -365,7 +458,7 @@
       <SliderAsramaKelas />
     </div>
     <div class="flex flex-col justify-center items-center my-12">
-      <img src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
+      <NuxtImg src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
     </div>
     <div
       class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow"
@@ -383,7 +476,7 @@
     <div
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
-      <img
+      <NuxtImg
         src="/kalender-akademik-central.jpg"
         class="rounded-lg shadow-black shadow-lg"
         alt=""

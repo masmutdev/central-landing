@@ -15,9 +15,12 @@
       <div
         class="flex lg:flex-row flex-col justify-center lg:justify-between items-start"
       >
-        <img
+        <NuxtImg
           src="/central-course-model.png"
           alt="Model Central Course"
+          width="600"
+          height="auto"
+          priority
           class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
         />
         <div class="flex flex-col justify-center items-center">
@@ -41,7 +44,9 @@
 
       <div
         class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow mt-4"
-      ></div>
+      >
+        <span class="sr-only">status indicator</span>
+      </div>
     </div>
 
     <!-- Alasan Section -->
@@ -113,7 +118,7 @@
           class="relative flex items-center bg-yellow-400 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-[1.02] transition-all duration-300 p-4 cursor-pointer"
         >
           <!-- Gambar Sale di pojok kanan atas -->
-          <img
+          <NuxtImg
             src="/certification.png"
             alt="Top"
             class="absolute top-5 left-2 w-[4rem] h-[4rem]"
@@ -158,7 +163,7 @@
       </div>
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
-        <img
+        <NuxtImg
           src="/central-course-model.png"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
@@ -173,7 +178,7 @@
     >
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2 hidden lg:flex">
-        <img
+        <NuxtImg
           src="/central-course-model.png"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
@@ -190,43 +195,43 @@
 
         <ul class="space-y-4">
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start">
               20x pertemuan dalam 1 bulan (senin-jum’at)
             </span>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Durasi belajar 75 menit/ pertemuan</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Tutor yang ramah dan profesional</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Video Replay Class</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Konsultasi dengan Tutor secara Intensif</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start">
               Online Via Google Meet
             </span>
           </li>
           <li class="flex items-start space-x-3">
-            <img src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Sertifikat Digital</span
             >
@@ -236,7 +241,7 @@
     </div>
 
     <div class="flex flex-col justify-center items-center my-12">
-      <img src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
+      <NuxtImg src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
     </div>
     <div
       class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow"
@@ -254,7 +259,7 @@
     <div
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
-      <img
+      <NuxtImg
         src="/kalender-akademik-central.jpg"
         class="rounded-lg shadow-black shadow-lg"
         alt=""
@@ -300,39 +305,6 @@ const paket = [
     level: "INTERMEDIATE",
     jenis: "PRONUNCIATION",
     paket: "99K",
-  },
-];
-const peserta1 = [
-  {
-    role: "Pelajar",
-    icon: "🎓",
-    deskripsi:
-      "Yang ingin ngobrol bahasa Inggris tapi sering kali bingung bagaimana memulainya",
-  },
-  {
-    role: "Mahasiswa",
-    icon: "📚",
-    deskripsi:
-      "Yang ingin belajar berkomunikasi secara aktif dalam waktu yang singkat",
-  },
-  {
-    role: "Guru",
-    icon: "👩‍🏫",
-    deskripsi: "Yang ingin tahu metode rahasia mengajar anak secara efisien",
-  },
-];
-
-const peserta2 = [
-  {
-    role: "Umum",
-    icon: "💼",
-    deskripsi: "Yang ingin mendapatkan pekerjaan di perusahaan multinasional",
-  },
-  {
-    role: "Pejuang SBMPTN",
-    icon: "🎯",
-    deskripsi:
-      "Yang belum berhasil masuk PTN Idaman tetapi bingung mengisi waktu luang",
   },
 ];
 </script>

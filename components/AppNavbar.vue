@@ -7,7 +7,14 @@
     >
       <!-- Logo dengan teks -->
       <div class="flex items-center space-x-2">
-        <img src="/logo.png" alt="Logo" class="w-10 h-10 object-contain" />
+        <NuxtImg
+          src="/logo.png"
+          alt="Logo"
+          width="40"
+          height="40"
+          class="w-10 h-10 object-contain"
+          priority
+        />
         <div class="leading-tight">
           <div class="text-base font-bold">CENTRAL</div>
           <div class="text-base font-bold">COURSE</div>
@@ -364,6 +371,7 @@ const kelasList = [
   },
 ];
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getRandom = (arr: string | any[]) =>
   arr[Math.floor(Math.random() * arr.length)];
 
