@@ -128,9 +128,14 @@
     target="_blank"
     class="fixed bottom-6 right-3 lg:right-[30px] z-50"
   >
-    <img
+    <NuxtImg
       src="/img/whatsapp.avif"
       alt="Chat WhatsApp"
+      width="100"
+      height="100"
+      sizes="(min-width: 1024px) 100px, 56px"
+      layout="constrained"
+      format="auto"
       class="w-14 h-14 lg:w-[100px] lg:h-[100px] drop-shadow-lg hover:scale-110 transition-transform animate-float"
     />
   </a>

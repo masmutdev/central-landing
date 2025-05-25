@@ -503,7 +503,13 @@
       <SliderAsramaKelas />
     </div>
     <div class="flex flex-col justify-center items-center my-12">
-      <NuxtImg src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
+      <img
+        src="/Arrows-3-pointing-down-arrow-down-animated.webp"
+        alt="Animasi Panah"
+        width="120"
+        height="80"
+        class="w-40 h-20"
+      />
     </div>
     <div
       class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow"
