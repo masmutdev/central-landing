@@ -14,10 +14,11 @@
         </p>
       </div>
       <NuxtImg
-        src="/central-course-model.png"
+        src="/img/central-course-model.avif"
         alt="Model Central Course"
         width="600"
         height="auto"
+        preload
         priority
         class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
       />
@@ -67,7 +68,7 @@
         <!-- Icon -->
         <div class="w-16 aspect-[1/1] shrink-0">
           <NuxtImg
-            src="/ratings.png"
+            src="/img/ratings.avif"
             alt="icon"
             width="64"
             height="64"
@@ -107,7 +108,7 @@
         <!-- Icon -->
         <div class="w-16 aspect-[1/1] shrink-0">
           <NuxtImg
-            src="/library.png"
+            src="/img/library.avif"
             alt="icon"
             width="64"
             height="64"
@@ -146,7 +147,7 @@
         <!-- Icon -->
         <div class="w-16 aspect-[1/1] shrink-0">
           <NuxtImg
-            src="/teacher.png"
+            src="/img/teacher.avif"
             alt="icon"
             width="64"
             height="64"
@@ -185,7 +186,7 @@
         <!-- Icon -->
         <div class="w-16 aspect-[1/1] shrink-0">
           <NuxtImg
-            src="/bracelet.png"
+            src="/img/bracelet.avif"
             alt="icon"
             width="64"
             height="64"
@@ -224,7 +225,7 @@
         <!-- Icon -->
         <div class="w-16 aspect-[1/1] shrink-0">
           <NuxtImg
-            src="/expertise.png"
+            src="/img/expertise.avif"
             alt="icon"
             width="64"
             height="64"
@@ -258,7 +259,7 @@
         <!-- Icon -->
         <div class="w-16 aspect-[1/1] shrink-0">
           <NuxtImg
-            src="/school.png"
+            src="/img/school.avif"
             alt="icon"
             width="64"
             height="64"
@@ -278,7 +279,7 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
         <NuxtImg
-          src="/central-course-model.png"
+          src="/img/central-course-model.avif"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
         />
@@ -294,55 +295,91 @@
 
         <ul class="space-y-4">
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Program 5x Pertemuan/ hari
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Asrama
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Sertifikat
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               English Zone
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Modul atau Buku Panduan
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Dibimbing Tutor yang Profesional
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               T-Shirt
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Tote Bag
             </div>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <div class="text-gray-700 text-lg font-medium text-start">
               Gratis penjemputan di Bandara Surabaya dan Stasiun Kediri
             </div>
@@ -364,14 +401,14 @@
         >
           <!-- Gambar Sale di pojok kanan atas -->
           <NuxtImg
-            src="/sale.png"
+            src="/img/sale.avif"
             alt="Sale"
             class="absolute top-[-1px] right-2 w-10 h-10"
           />
 
           <!-- Gambar Sale di pojok kanan atas -->
           <NuxtImg
-            src="/certification.png"
+            src="/img/certification.avif"
             alt="Top"
             class="absolute top-5 left-2 w-[4rem] h-[4rem]"
           />
@@ -404,13 +441,12 @@
           :key="item.role"
           class="relative bg-yellow-400/30 rounded-lg shadow p-6 text-center overflow-hidden"
         >
-          <!-- Ikon Background di pojok kanan atas, pakai gambar 1.png sampai 5.png -->
+          <!-- Ikon Background di pojok kanan atas, pakai gambar 1.avif sampai 5.avif -->
           <NuxtImg
-            :src="`/${index + 1}.png`"
+            :src="`/img/${index + 1}.avif`"
             alt="icon"
             width="40"
             height="40"
-            format="webp"
             class="absolute top-2 right-2 w-10 h-10 opacity-60 pointer-events-none"
           />
 
@@ -431,13 +467,12 @@
           :key="item.role"
           class="relative bg-yellow-400/30 rounded-lg shadow p-6 text-center overflow-hidden"
         >
-          <!-- Ikon Background di pojok kanan atas, pakai gambar 1.png sampai 5.png -->
+          <!-- Ikon Background di pojok kanan atas, pakai gambar 1.avif sampai 5.avif -->
           <NuxtImg
-            :src="`/${index + 4}.png`"
+            :src="`/img/${index + 4}.avif`"
             alt="icon"
             width="40"
             height="40"
-            format="webp"
             class="absolute top-2 right-2 w-10 h-10 opacity-60 pointer-events-none"
           />
 
@@ -477,7 +512,7 @@
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
       <NuxtImg
-        src="/kalender-akademik-central.jpg"
+        src="/img/kalender-akademik-central.jpg"
         class="rounded-lg shadow-black shadow-lg"
         alt=""
       />

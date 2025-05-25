@@ -8,7 +8,7 @@
       <!-- Logo dengan teks -->
       <div class="flex items-center space-x-2">
         <NuxtImg
-          src="/logo.png"
+          src="/img/logo.avif"
           alt="Logo"
           width="40"
           height="40"
@@ -129,7 +129,7 @@
     class="fixed bottom-6 right-3 lg:right-[30px] z-50"
   >
     <img
-      src="/whatsapp.png"
+      src="/img/whatsapp.avif"
       alt="Chat WhatsApp"
       class="w-14 h-14 lg:w-[100px] lg:h-[100px] drop-shadow-lg hover:scale-110 transition-transform animate-float"
     />

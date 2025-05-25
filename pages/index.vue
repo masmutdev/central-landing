@@ -15,9 +15,11 @@
       <div
         class="relative z-10 mt-[10px] lg:mt-[50px] flex flex-col items-center justify-center px-4"
       >
-        <img
-          src="/logo.png"
+        <NuxtImg
+          src="/img/logo.avif"
           alt="Central Course Logo"
+          width="100"
+          height="100"
           class="w-[100px] h-[100px] mb-6"
         />
         <h1 class="text-4xl lg:text-[60px] font-extrabold text-gray-900">

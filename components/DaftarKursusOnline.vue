@@ -16,7 +16,7 @@
         class="flex lg:flex-row flex-col justify-center lg:justify-between items-start"
       >
         <NuxtImg
-          src="/central-course-model.png"
+          src="/img/central-course-model.avif"
           alt="Model Central Course"
           width="600"
           height="auto"
@@ -119,7 +119,7 @@
         >
           <!-- Gambar Sale di pojok kanan atas -->
           <NuxtImg
-            src="/certification.png"
+            src="/img/certification.avif"
             alt="Top"
             class="absolute top-5 left-2 w-[4rem] h-[4rem]"
           />
@@ -164,7 +164,7 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
         <NuxtImg
-          src="/central-course-model.png"
+          src="/img/central-course-model.avif"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
         />
@@ -179,7 +179,7 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2 hidden lg:flex">
         <NuxtImg
-          src="/central-course-model.png"
+          src="/img/central-course-model.avif"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
         />
@@ -195,43 +195,71 @@
 
         <ul class="space-y-4">
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start">
               20x pertemuan dalam 1 bulan (senin-jum’at)
             </span>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Durasi belajar 75 menit/ pertemuan</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Tutor yang ramah dan profesional</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Video Replay Class</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Konsultasi dengan Tutor secara Intensif</span
             >
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start">
               Online Via Google Meet
             </span>
           </li>
           <li class="flex items-start space-x-3">
-            <NuxtImg src="/checks.png" alt="check icon" class="w-6 h-6 mt-1" />
+            <NuxtImg
+              src="/img/checks.avif"
+              alt="check icon"
+              class="w-6 h-6 mt-1"
+            />
             <span class="text-gray-700 text-lg font-medium text-start"
               >Sertifikat Digital</span
             >
@@ -241,7 +269,12 @@
     </div>
 
     <div class="flex flex-col justify-center items-center my-12">
-      <NuxtImg src="/Arrows-3-pointing-down-arrow-down-animated.webp" alt="" />
+      <img
+        src="/Arrows-3-pointing-down-arrow-down-animated.webp"
+        alt="Animasi panah ke bawah"
+        width="auto"
+        height="auto"
+      />
     </div>
     <div
       class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow"
@@ -260,7 +293,7 @@
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
       <NuxtImg
-        src="/kalender-akademik-central.jpg"
+        src="/img/kalender-akademik-central.avif"
         class="rounded-lg shadow-black shadow-lg"
         alt=""
       />
