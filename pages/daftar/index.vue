@@ -2,7 +2,8 @@
   <div class="pt-[4rem] lg:pt-10">
     <AppNavbar />
 
-    <component :is="activeComponent" />
+    <DaftarKursusOffline v-if="!isOnline" />
+    <DaftarKursusOnline v-else />
   </div>
 </template>
 
@@ -15,10 +16,5 @@ import DaftarKursusOffline from "~/components/DaftarKursusOffline.vue";
 import DaftarKursusOnline from "~/components/DaftarKursusOnline.vue";
 
 const route = useRoute();
-
-const activeComponent = computed(() => {
-  const tab = route.query.tab;
-  if (tab === "online") return DaftarKursusOnline;
-  return DaftarKursusOffline;
-});
+const isOnline = computed(() => route.query.tab === "online");
 </script>
