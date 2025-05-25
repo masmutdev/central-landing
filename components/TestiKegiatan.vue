@@ -81,18 +81,9 @@ import "swiper/css/pagination";
 const modules = [Autoplay, Pagination];
 
 const imagesKelas = [
-  "/img/suasana-kelas-1.avif",
-  "/img/suasana-kelas-2.avif",
-  "/img/suasana-kelas-3.avif",
-  "/img/suasana-kelas-4.avif",
-  "/img/suasana-kelas-5.avif",
-  "/img/suasana-kelas-6.avif",
-  "/img/suasana-kelas-7.avif",
-  "/img/suasana-kelas-8.avif",
-  "/img/suasana-kelas-9.avif",
-  "/img/suasana-kelas-10.avif",
   "/img/suasana-kelas-11.avif",
   "/img/suasana-kelas-12.avif",
+  "/img/suasana-kelas-13.avif",
 ];
 
 const testi = [

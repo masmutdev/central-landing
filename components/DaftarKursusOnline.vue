@@ -16,7 +16,7 @@
         class="flex lg:flex-row flex-col justify-center lg:justify-between items-start"
       >
         <NuxtImg
-          src="/img/central-course-model.avif"
+          src="/img/model-central.avif"
           alt="Model Central Course"
           width="400"
           height="400"
@@ -169,7 +169,7 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
         <NuxtImg
-          src="/img/central-course-model.avif"
+          src="/img/model-central.avif"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
         />
@@ -184,7 +184,7 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2 hidden lg:flex">
         <NuxtImg
-          src="/img/central-course-model.avif"
+          src="/img/model-central-2.avif"
           alt="Central Course Model"
           class="w-full h-auto object-contain"
         />
@@ -303,7 +303,7 @@
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
       <NuxtImg
-        src="/img/kalender-akademik-central.avif"
+        src="/img/kalender-akademik-online.avif"
         class="rounded-lg shadow-black shadow-lg"
         alt=""
       />

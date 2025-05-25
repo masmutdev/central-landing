@@ -93,9 +93,6 @@ const imagesKelas = [
   "/img/suasana-kelas-7.avif",
   "/img/suasana-kelas-8.avif",
   "/img/suasana-kelas-9.avif",
-  "/img/suasana-kelas-10.avif",
-  "/img/suasana-kelas-11.avif",
-  "/img/suasana-kelas-12.avif",
 ];
 
 const imagesAsrama = [

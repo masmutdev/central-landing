@@ -14,7 +14,7 @@
         </p>
       </div>
       <NuxtImg
-        src="/img/central-course-model.avif"
+        src="/img/model-central.avif"
         alt="Model Central Course"
         width="400"
         height="400"
@@ -283,7 +283,7 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
         <NuxtImg
-          src="/img/central-course-model.avif"
+          src="/img/model-central-2.avif"
           alt="Model Central Course"
           width="400"
           height="400"
