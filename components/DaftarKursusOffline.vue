@@ -19,6 +19,7 @@
         width="400"
         height="400"
         sizes="400px"
+        quality="80"
         preload
         priority
         format="auto"

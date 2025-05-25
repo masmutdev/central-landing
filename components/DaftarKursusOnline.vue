@@ -21,11 +21,12 @@
           width="400"
           height="400"
           sizes="400px"
+          quality="80"
           preload
           priority
           format="auto"
           layout="constrained"
-          class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
+          class="rounded-lg transform hover:scale-105 transition-transform"
         />
         <div class="flex flex-col justify-center items-center">
           <div class="text-center font-poppins lg:my-[40px]">

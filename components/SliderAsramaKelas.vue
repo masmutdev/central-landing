@@ -24,16 +24,17 @@
             sizes="(max-width: 640px) 100vw, 320px"
             layout="constrained"
             format="auto"
-            preload
+            quality="50"
+            loading="lazy"
             class="rounded-lg object-cover"
           />
           <!-- Teks overlay -->
-          <div
-            class="absolute bottom-0 pb-7 left-0 right-0 bg-black/40 backdrop-blur text-white text-center text-lg font-semibold py-2"
-          >
-            Suasana Kelas
-          </div>
         </swiper-slide>
+        <div
+          class="absolute z-[10] bottom-0 pb-2 left-0 right-0 bg-black/40 backdrop-blur text-white text-center text-lg font-semibold py-2"
+        >
+          Suasana Kelas
+        </div>
       </swiper>
     </div>
 
@@ -58,16 +59,17 @@
             sizes="(max-width: 640px) 100vw, 320px"
             layout="constrained"
             format="auto"
-            preload
+            quality="50"
+            loading="lazy"
             class="rounded-lg object-cover"
           />
           <!-- Teks overlay -->
-          <div
-            class="absolute bottom-0 pb-7 left-0 right-0 bg-black/40 backdrop-blur text-white text-center text-lg font-semibold py-2"
-          >
-            Asrama
-          </div>
         </swiper-slide>
+        <div
+          class="absolute z-[10] bottom-0 pb-2 left-0 right-0 bg-black/40 backdrop-blur text-white text-center text-lg font-semibold py-2"
+        >
+          Asrama
+        </div>
       </swiper>
     </div>
   </div>
