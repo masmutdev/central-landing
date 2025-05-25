@@ -293,7 +293,12 @@
         Daftar Sekarang
       </a>
     </div>
-
+    <div>
+      <h2 class="text-3xl font-bold text-center text-gray-900 mb-12 mt-8">
+        Asrama dan Testimoni
+      </h2>
+      <TestiKegiatan />
+    </div>
     <div
       class="w-full rounded-lg flex flex-col justify-center items-center my-12"
     >
@@ -307,6 +312,9 @@
 </template>
 
 <script setup lang="ts">
+const TestiKegiatan = defineAsyncComponent(
+  () => import("~/components/TestiKegiatan.vue")
+);
 const paket = [
   {
     id: 1,

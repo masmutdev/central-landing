@@ -535,6 +535,26 @@
       />
     </div>
   </section>
+  <section class="py-10 px-4 lg:px-20 bg-gray-100 rounded-lg shadow-md">
+    <h2 class="text-2xl lg:text-3xl font-bold text-center mb-6 text-gray-800">
+      Alamat Kami
+    </h2>
+    <p class="text-2xl lg:text-3xl text-center mb-6">
+      Jl. Pancawarna, Mulyoasri, Tulungrejo, Kec. Pare, Kabupaten Kediri, Jawa
+      Timur 64212
+    </p>
+    <div class="w-full h-[300px] lg:h-[450px] rounded-lg overflow-hidden">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.329730486101!2d112.1901984!3d-7.7548098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e785dc9a05d40cb%3A0x718fa35e88faf74!2sCENTRAL%20COURSE%20kampung%20inggris!5e0!3m2!1sid!2sid!4v1748157094547!5m2!1sid!2sid"
+        width="100%"
+        height="100%"
+        style="border: 0"
+        allow="fullscreen"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </section>
 </template>
 
 <script setup lang="ts">
