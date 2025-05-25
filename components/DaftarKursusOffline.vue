@@ -23,7 +23,7 @@
         priority
         format="auto"
         layout="constrained"
-        class="mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
+        class="rounded-lg transform hover:scale-105 transition-transform"
       />
       <div
         class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow mt-4"
