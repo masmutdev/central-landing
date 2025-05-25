@@ -113,8 +113,8 @@
       target="_blank"
       class="fixed bottom-6 right-3 lg:right-[30px] z-50"
     >
-      <img
-        src="/whatsapp.png"
+      <NuxtImg
+        src="/img/whatsapp.avif"
         alt="Chat WhatsApp"
         class="w-14 h-14 lg:w-[100px] lg:h-[100px] drop-shadow-lg hover:scale-110 transition-transform animate-float"
       />

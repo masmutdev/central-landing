@@ -19,7 +19,6 @@
           src="/img/central-course-model.avif"
           alt="Model Central Course"
           width="600"
-          height="auto"
           priority
           class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
         />
