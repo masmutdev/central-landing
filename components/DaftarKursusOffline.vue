@@ -16,11 +16,14 @@
       <NuxtImg
         src="/img/central-course-model.avif"
         alt="Model Central Course"
-        width="600"
-        height="auto"
+        width="400"
+        height="400"
+        sizes="(min-width: 1024px) 400px, 10vw"
         preload
         priority
-        class="w-60 lg:w-[30%] h-auto mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
+        format="auto"
+        layout="constrained"
+        class="mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
       />
       <div
         class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow mt-4"
@@ -280,8 +283,15 @@
       <div class="w-full lg:w-1/2">
         <NuxtImg
           src="/img/central-course-model.avif"
-          alt="Central Course Model"
-          class="w-full h-auto object-contain"
+          alt="Model Central Course"
+          width="400"
+          height="400"
+          sizes="(min-width: 1024px) 400px, 10vw"
+          preload
+          priority
+          format="auto"
+          layout="constrained"
+          class="mt-6 lg:mt-0 lg:ml-10 rounded-lg transform hover:scale-105 transition-transform"
         />
       </div>
 

@@ -21,10 +21,11 @@
             alt="Suasana Kelas"
             width="320"
             height="384"
-            sizes="(min-width: 1024px) 320px, 100vw"
-            class="w-full h-full object-cover"
+            sizes="(min-width: 1024px) 320px, 10vw"
+            layout="constrained"
             format="auto"
             preload
+            class="rounded-lg object-cover"
           />
           <!-- Teks overlay -->
           <div
@@ -54,10 +55,11 @@
             alt="Asrama"
             width="320"
             height="384"
-            sizes="(min-width: 1024px) 320px, 100vw"
-            class="w-full h-full object-cover"
+            sizes="(min-width: 1024px) 320px, 10vw"
+            layout="constrained"
             format="auto"
             preload
+            class="rounded-lg object-cover"
           />
           <!-- Teks overlay -->
           <div
