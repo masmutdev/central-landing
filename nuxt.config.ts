@@ -78,14 +78,4 @@ export default defineNuxtConfig({
     dir: "public",
     format: ["webp", "avif"],
   },
-
-  robots: {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-      },
-    ],
-    sitemap: "https://central-landing.masmutofficial.workers.dev/sitemap.xml",
-  },
 });

@@ -21,7 +21,7 @@
             alt="Suasana Kelas"
             width="320"
             height="384"
-            sizes="320px"
+            sizes="(max-width: 640px) 100vw, 320px"
             layout="constrained"
             format="auto"
             preload
@@ -55,7 +55,7 @@
             alt="Asrama"
             width="320"
             height="384"
-            sizes="320px"
+            sizes="(max-width: 640px) 100vw, 320px"
             layout="constrained"
             format="auto"
             preload

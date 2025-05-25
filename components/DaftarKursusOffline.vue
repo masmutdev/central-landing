@@ -537,7 +537,9 @@
 </template>
 
 <script setup lang="ts">
-import SliderAsramaKelas from "~/components/SliderAsramaKelas.vue";
+const SliderAsramaKelas = defineAsyncComponent(
+  () => import("~/components/SliderAsramaKelas.vue")
+);
 const paket = [
   {
     id: 1,
