@@ -2,13 +2,14 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
+
   modules: [
     "@nuxt/eslint",
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
     "@nuxtjs/sitemap",
-    "@nuxtjs/seo",
   ],
+
   app: {
     head: {
       title:
@@ -67,14 +68,24 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", href: "/favicon.ico" }],
     },
   },
+
   site: {
     url: "https://central-landing.masmutofficial.workers.dev/",
     name: "Central Course Official",
   },
+
   image: {
-    // folder public
     dir: "public",
-    // optional: aktifkan format modern
     format: ["webp", "avif"],
+  },
+
+  robots: {
+    rules: [
+      {
+        userAgent: "*",
+        allow: "/",
+      },
+    ],
+    sitemap: "https://central-landing.masmutofficial.workers.dev/sitemap.xml",
   },
 });
