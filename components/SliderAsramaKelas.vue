@@ -66,16 +66,24 @@ import "swiper/css/pagination";
 const modules = [Autoplay, Pagination];
 
 const imagesKelas = [
-  "/IMG_1679-1536x2048.jpg",
-  "/IMG_1685-1536x2048.jpg",
-  "/IMG_1673-1536x2048.jpg",
-  "/dd50d515-1815-45ef-af06-07cf848ef984-1536x1152.jpg",
+  "/suasana-kelas-1.jpg",
+  "/suasana-kelas-2.jpg",
+  "/suasana-kelas-3.jpg",
+  "/suasana-kelas-4.jpg",
+  "/suasana-kelas-5.jpg",
+  "/suasana-kelas-6.jpg",
+  "/suasana-kelas-7.jpg",
+  "/suasana-kelas-8.jpg",
+  "/suasana-kelas-9.jpg",
+  "/suasana-kelas-10.jpg",
+  "/suasana-kelas-11.jpg",
+  "/suasana-kelas-12.jpg",
 ];
 
 const imagesAsrama = [
-  "/716c3a7f-10b8-4873-baba-ac57ea62b65b.jpg",
-  "/IMG_3251-1536x1152.jpg",
-  "/IMG_3257-1536x864.jpg",
-  "/d993e3f2-d258-409b-b94c-db58a2974961.jpg",
+  "/kamar-mandi.jpg",
+  "/tempat-tidur1.jpg",
+  "/tempat-tidur2.jpg",
+  "/tempat-tidur3.jpg",
 ];
 </script>
