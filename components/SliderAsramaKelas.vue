@@ -19,6 +19,9 @@
           <NuxtImg
             :src="image"
             alt="Suasana Kelas"
+            width="320"
+            height="384"
+            sizes="(min-width: 1024px) 320px, 100vw"
             class="w-full h-full object-cover"
             format="auto"
             preload
@@ -49,6 +52,9 @@
           <NuxtImg
             :src="image"
             alt="Asrama"
+            width="320"
+            height="384"
+            sizes="(min-width: 1024px) 320px, 100vw"
             class="w-full h-full object-cover"
             format="auto"
             preload
