@@ -16,10 +16,12 @@
           :key="'kelas-' + index"
           class="relative"
         >
-          <img
+          <NuxtImg
             :src="image"
             alt="Suasana Kelas"
             class="w-full h-full object-cover"
+            format="auto"
+            preload
           />
           <!-- Teks overlay -->
           <div
@@ -44,7 +46,13 @@
           v-for="(image, index) in imagesAsrama"
           :key="'asrama-' + index"
         >
-          <img :src="image" alt="Asrama" class="w-full h-full object-cover" />
+          <NuxtImg
+            :src="image"
+            alt="Asrama"
+            class="w-full h-full object-cover"
+            format="auto"
+            preload
+          />
           <!-- Teks overlay -->
           <div
             class="absolute bottom-0 pb-7 left-0 right-0 bg-black/40 backdrop-blur text-white text-center text-lg font-semibold py-2"
@@ -66,24 +74,24 @@ import "swiper/css/pagination";
 const modules = [Autoplay, Pagination];
 
 const imagesKelas = [
-  "/suasana-kelas-1.jpg",
-  "/suasana-kelas-2.jpg",
-  "/suasana-kelas-3.jpg",
-  "/suasana-kelas-4.jpg",
-  "/suasana-kelas-5.jpg",
-  "/suasana-kelas-6.jpg",
-  "/suasana-kelas-7.jpg",
-  "/suasana-kelas-8.jpg",
-  "/suasana-kelas-9.jpg",
-  "/suasana-kelas-10.jpg",
-  "/suasana-kelas-11.jpg",
-  "/suasana-kelas-12.jpg",
+  "/img/suasana-kelas-1.avif",
+  "/img/suasana-kelas-2.avif",
+  "/img/suasana-kelas-3.avif",
+  "/img/suasana-kelas-4.avif",
+  "/img/suasana-kelas-5.avif",
+  "/img/suasana-kelas-6.avif",
+  "/img/suasana-kelas-7.avif",
+  "/img/suasana-kelas-8.avif",
+  "/img/suasana-kelas-9.avif",
+  "/img/suasana-kelas-10.avif",
+  "/img/suasana-kelas-11.avif",
+  "/img/suasana-kelas-12.avif",
 ];
 
 const imagesAsrama = [
-  "/kamar-mandi.jpg",
-  "/tempat-tidur1.jpg",
-  "/tempat-tidur2.jpg",
-  "/tempat-tidur3.jpg",
+  "/img/kamar-mandi.avif",
+  "/img/tempat-tidur1.avif",
+  "/img/tempat-tidur2.avif",
+  "/img/tempat-tidur3.avif",
 ];
 </script>
