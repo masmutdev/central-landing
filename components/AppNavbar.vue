@@ -124,7 +124,7 @@
 
   <!-- Tombol WhatsApp -->
   <a
-    href="https://wa.me/6289510056758"
+    href="https://kunjungi.website/admin-mong"
     target="_blank"
     class="fixed bottom-6 right-3 lg:right-[30px] z-50"
   >
