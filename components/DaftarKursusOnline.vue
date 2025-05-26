@@ -169,9 +169,9 @@
       <!-- Gambar: di atas untuk mobile, di samping kanan untuk desktop -->
       <div class="w-full lg:w-1/2">
         <NuxtImg
-          src="/img/model-central.avif"
+          src="/img/brosur.avif"
           alt="Central Course Model"
-          class="w-full h-auto object-contain"
+          class="w-full h-auto object-contain rounded-lg shadow-lg"
         />
       </div>
 
