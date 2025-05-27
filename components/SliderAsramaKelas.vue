@@ -53,7 +53,7 @@
         >
           <NuxtImg
             :src="image"
-            alt="Asrama"
+            alt="Suasana Kelas"
             width="320"
             height="384"
             sizes="(max-width: 640px) 100vw, 320px"
@@ -68,7 +68,7 @@
         <div
           class="absolute z-[10] bottom-0 pb-2 left-0 right-0 bg-black/40 backdrop-blur text-white text-center text-lg font-semibold py-2"
         >
-          Asrama
+          Suasana Kelas
         </div>
       </swiper>
     </div>
@@ -97,7 +97,6 @@ const imagesKelas = [
 
 const imagesAsrama = [
   "/img/kamar-mandi.avif",
-  "/img/tempat-tidur1.avif",
   "/img/tempat-tidur2.avif",
   "/img/tempat-tidur3.avif",
 ];

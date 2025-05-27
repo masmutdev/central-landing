@@ -136,11 +136,6 @@
             >
               {{ item.level }}
             </div>
-            <div
-              class="absolute bottom-[-28px] right-[-10%] lg:right-[-0.7rem] bg-green-900 text-white text-xs font-semibold px-2 py-1 rounded-md inline-block mb-1"
-            >
-              Kuota 20 Orang
-            </div>
             <div class="text-2xl text-gray-800 font-bold">
               {{ item.jenis }}
             </div>
@@ -295,7 +290,7 @@
     </div>
     <div>
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-12 mt-8">
-        Asrama dan Testimoni
+        Suasana Kelas dan Testimoni
       </h2>
       <TestiKegiatan />
     </div>
