@@ -371,7 +371,7 @@ const kelasList = [
     harga: ["Rp. 99.000"],
   },
   {
-    name: "Tes Toefl Online",
+    name: "Tes Online",
     harga: ["Rp. 175.000"],
   },
 ];

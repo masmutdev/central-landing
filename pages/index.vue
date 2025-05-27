@@ -63,7 +63,7 @@
           rel="noopener"
           class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center inline-flex justify-center items-center"
         >
-          Daftar Tes TOEFL Online
+          Daftar Tes Online
         </a>
       </div>
 
