@@ -63,7 +63,7 @@
           rel="noopener"
           class="w-[200px] lg:w-[240px] bg-white text-black font-semibold px-4 py-2 lg:py-3 rounded-md shadow hover:bg-yellow-50 hover:scale-105 hover:-translate-y-1 transition duration-200 ease-in-out text-sm lg:text-base text-center inline-flex justify-center items-center"
         >
-          Daftar Tes Online
+          Daftar Kelas Online
         </a>
       </div>
 
@@ -766,7 +766,7 @@ const kelasList = [
     harga: ["Rp. 99.000"],
   },
   {
-    name: "Tes Online",
+    name: "Kelas Online",
     harga: ["Rp. 175.000"],
   },
 ];

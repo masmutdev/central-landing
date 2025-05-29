@@ -40,12 +40,11 @@ export default defineNuxtConfig({
         },
         {
           property: "og:url",
-          content: "https://central-landing.masmutofficial.workers.dev/",
+          content: "https://centralcourse.id/",
         },
         {
           property: "og:image",
-          content:
-            "https://central-landing.masmutofficial.workers.dev/img/logo.avif",
+          content: "https://centralcourse.id/img/logo.avif",
         },
 
         // Twitter Card
@@ -61,16 +60,21 @@ export default defineNuxtConfig({
         },
         {
           name: "twitter:image",
-          content:
-            "https://central-landing.masmutofficial.workers.dev/img/logo.avif",
+          content: "https://centralcourse.id/img/logo.avif",
         },
       ],
-      link: [{ rel: "icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", href: "/favicon.ico" },
+        {
+          rel: "canonical",
+          href: "https://centralcourse.id/",
+        },
+      ],
     },
   },
 
   site: {
-    url: "https://central-landing.masmutofficial.workers.dev/",
+    url: "https://centralcourse.id/",
     name: "Central Course Official",
   },
 

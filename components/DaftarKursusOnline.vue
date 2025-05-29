@@ -288,6 +288,22 @@
         Daftar Sekarang
       </a>
     </div>
+    <div
+      class="aspect-w-16 flex flex-col justify-center items-center aspect-h-9 w-full my-10"
+    >
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/mnztuIxaYSI?si=qoY02D9KYKlIgMly"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"
+        class="rounded-lg"
+      />
+    </div>
+
     <div>
       <h2 class="text-3xl font-bold text-center text-gray-900 mb-12 mt-8">
         Suasana Kelas dan Testimoni
