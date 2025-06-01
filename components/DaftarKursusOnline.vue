@@ -40,6 +40,7 @@
             href="https://kunjungi.website/admin-mong"
             target="_blank"
             rel="noopener noreferrer"
+            @click="trackClick('tombol_atas_online')"
             class="block bg-yellow-700/90 text-lg lg:text-4xl shadow-lg text-white font-semibold py-3 px-6 lg:py-6 lg:px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
           >
             Daftar Sekarang
@@ -284,6 +285,7 @@
         target="_blank"
         rel="noopener noreferrer"
         class="block bg-yellow-700/30 text-2xl shadow-lg text-black font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
+        @click="trackClick('tombol_bawah_online')"
       >
         Daftar Sekarang
       </a>
@@ -323,6 +325,25 @@
 </template>
 
 <script setup lang="ts">
+const route = useRoute();
+const { $fbq } = useNuxtApp();
+
+function trackClick(source: string) {
+  const fbq = $fbq as (
+    event: string,
+    action: string,
+    data?: Record<string, string>
+  ) => void;
+
+  if (route.query.tab === "online") {
+    if (typeof fbq === "function") {
+      fbq("track", "Lead", {
+        content_name: source,
+      });
+    }
+  }
+}
+
 const TestiKegiatan = defineAsyncComponent(
   () => import("~/components/TestiKegiatan.vue")
 );

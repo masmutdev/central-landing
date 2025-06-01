@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/image",
     "@nuxtjs/sitemap",
+    "nuxt-meta-pixel",
   ],
 
   app: {
@@ -81,5 +82,16 @@ export default defineNuxtConfig({
   image: {
     dir: "public",
     format: ["webp", "avif"],
+  },
+
+  runtimeConfig: {
+    public: {
+      metapixel: {
+        default: {
+          id: "1466798480876697", // Ganti dengan ID Pixel kamu
+          pageView: "/**",
+        },
+      },
+    },
   },
 });
