@@ -37,7 +37,7 @@
             </h2>
           </div>
           <a
-            href="https://whatsform.com/4l7hdi"
+            href="https://kunjungi.website/admin-mong"
             target="_blank"
             rel="noopener noreferrer"
             class="block bg-yellow-700/90 text-lg lg:text-4xl shadow-lg text-white font-semibold py-3 px-6 lg:py-6 lg:px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
@@ -280,7 +280,7 @@
       class="inline-block p-[4px] rounded-lg bg-[length:200%_200%] bg-gradient-to-r from-yellow-400 via-yellow-200 to-yellow-500 animate-borderMove animate-pulseSlow"
     >
       <a
-        href="https://whatsform.com/4l7hdi"
+        href="https://kunjungi.website/admin-mong"
         target="_blank"
         rel="noopener noreferrer"
         class="block bg-yellow-700/30 text-2xl shadow-lg text-black font-semibold py-6 px-12 rounded-lg hover:bg-yellow-500 transition duration-300 hover:animate-none animate-pulseSlow"
