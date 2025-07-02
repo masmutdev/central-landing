@@ -37,7 +37,7 @@
             </h2>
           </div>
           <a
-            href="https://kunjungi.website/admin-mong"
+            href="https://whatsform.com/4l7hdi"
             target="_blank"
             rel="noopener noreferrer"
             @click="trackClick('tombol_atas_online')"
